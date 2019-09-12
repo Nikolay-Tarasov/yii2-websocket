@@ -61,7 +61,7 @@ $this->title = 'My Yii Application';
             <h3><?= $product['name']?></h3>
             <h4><div id="status_<?= $product['id'] ?>"><?= $product['price'] ?> руб.</div></h4>
             <input type="hidden" name="product_id" value="<?= $product['id'] ?>">
-            <div class="row"><input type="submit" value="Поехали"></div>
+            <div class="row"><input type="submit" value="Повысить +10"></div>
         </form>
     <hr>
 <?php endforeach; ?>
